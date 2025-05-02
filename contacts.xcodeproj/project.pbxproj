@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84830A972D4EC42F00EA84BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830A962D4EC42F00EA84BD /* AppDelegate.swift */; };
+		84830A992D4EC42F00EA84BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830A982D4EC42F00EA84BD /* SceneDelegate.swift */; };
+		84830A9B2D4EC42F00EA84BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830A9A2D4EC42F00EA84BD /* ViewController.swift */; };
+		84830A9E2D4EC42F00EA84BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84830A9C2D4EC42F00EA84BD /* Main.storyboard */; };
+		84830AA02D4EC43800EA84BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84830A9F2D4EC43800EA84BD /* Assets.xcassets */; };
+		84830AA32D4EC43800EA84BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84830AA12D4EC43800EA84BD /* LaunchScreen.storyboard */; };
+		84830AB02D4EC7E000EA84BD /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830AAF2D4EC7E000EA84BD /* Contact.swift */; };
+		84830AB52D4ECA3600EA84BD /* ContactSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830AB42D4ECA3600EA84BD /* ContactSection.swift */; };
+		84830ABA2D4ED6BB00EA84BD /* ContactHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830AB92D4ED6BB00EA84BD /* ContactHeaderModel.swift */; };
+		848448D52D527FE10025BE88 /* ContactHeaderForGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848448D42D527FE10025BE88 /* ContactHeaderForGrid.swift */; };
+		848448D72D528AC40025BE88 /* ContactHeaderForList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848448D62D528AC40025BE88 /* ContactHeaderForList.swift */; };
+		848448D92D528D100025BE88 /* ContactCellForGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848448D82D528D100025BE88 /* ContactCellForGrid.swift */; };
+		848448DB2D528DA20025BE88 /* ContactCellForList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848448DA2D528DA20025BE88 /* ContactCellForList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84830A932D4EC42F00EA84BD /* zeliz22-ass4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zeliz22-ass4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84830A962D4EC42F00EA84BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84830A982D4EC42F00EA84BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84830A9A2D4EC42F00EA84BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84830A9D2D4EC42F00EA84BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84830A9F2D4EC43800EA84BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84830AA22D4EC43800EA84BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84830AA42D4EC43800EA84BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84830AAF2D4EC7E000EA84BD /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		84830AB42D4ECA3600EA84BD /* ContactSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSection.swift; sourceTree = "<group>"; };
+		84830AB92D4ED6BB00EA84BD /* ContactHeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactHeaderModel.swift; sourceTree = "<group>"; };
+		848448D42D527FE10025BE88 /* ContactHeaderForGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactHeaderForGrid.swift; sourceTree = "<group>"; };
+		848448D62D528AC40025BE88 /* ContactHeaderForList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactHeaderForList.swift; sourceTree = "<group>"; };
+		848448D82D528D100025BE88 /* ContactCellForGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCellForGrid.swift; sourceTree = "<group>"; };
+		848448DA2D528DA20025BE88 /* ContactCellForList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCellForList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84830A902D4EC42F00EA84BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84830A8A2D4EC42F00EA84BD = {
+			isa = PBXGroup;
+			children = (
+				84830A952D4EC42F00EA84BD /* zeliz22-ass4 */,
+				84830A942D4EC42F00EA84BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84830A942D4EC42F00EA84BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84830A932D4EC42F00EA84BD /* zeliz22-ass4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84830A952D4EC42F00EA84BD /* zeliz22-ass4 */ = {
+			isa = PBXGroup;
+			children = (
+				84830AB62D4ED3B000EA84BD /* Header */,
+				84830AB12D4EC88000EA84BD /* Cells */,
+				84830AAA2D4EC69400EA84BD /* Models */,
+				84830A962D4EC42F00EA84BD /* AppDelegate.swift */,
+				84830A982D4EC42F00EA84BD /* SceneDelegate.swift */,
+				84830A9A2D4EC42F00EA84BD /* ViewController.swift */,
+				84830A9C2D4EC42F00EA84BD /* Main.storyboard */,
+				84830A9F2D4EC43800EA84BD /* Assets.xcassets */,
+				84830AA12D4EC43800EA84BD /* LaunchScreen.storyboard */,
+				84830AA42D4EC43800EA84BD /* Info.plist */,
+			);
+			path = "zeliz22-ass4";
+			sourceTree = "<group>";
+		};
+		84830AAA2D4EC69400EA84BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84830AAF2D4EC7E000EA84BD /* Contact.swift */,
+				84830AB42D4ECA3600EA84BD /* ContactSection.swift */,
+				84830AB92D4ED6BB00EA84BD /* ContactHeaderModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84830AB12D4EC88000EA84BD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				848448D82D528D100025BE88 /* ContactCellForGrid.swift */,
+				848448DA2D528DA20025BE88 /* ContactCellForList.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84830AB62D4ED3B000EA84BD /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				848448D42D527FE10025BE88 /* ContactHeaderForGrid.swift */,
+				848448D62D528AC40025BE88 /* ContactHeaderForList.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84830A922D4EC42F00EA84BD /* zeliz22-ass4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84830AA72D4EC43800EA84BD /* Build configuration list for PBXNativeTarget "zeliz22-ass4" */;
+			buildPhases = (
+				84830A8F2D4EC42F00EA84BD /* Sources */,
+				84830A902D4EC42F00EA84BD /* Frameworks */,
+				84830A912D4EC42F00EA84BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zeliz22-ass4";
+			productName = "zeliz22-ass4";
+			productReference = 84830A932D4EC42F00EA84BD /* zeliz22-ass4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84830A8B2D4EC42F00EA84BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					84830A922D4EC42F00EA84BD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 84830A8E2D4EC42F00EA84BD /* Build configuration list for PBXProject "zeliz22-ass4" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84830A8A2D4EC42F00EA84BD;
+			productRefGroup = 84830A942D4EC42F00EA84BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84830A922D4EC42F00EA84BD /* zeliz22-ass4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84830A912D4EC42F00EA84BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84830AA32D4EC43800EA84BD /* LaunchScreen.storyboard in Resources */,
+				84830AA02D4EC43800EA84BD /* Assets.xcassets in Resources */,
+				84830A9E2D4EC42F00EA84BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84830A8F2D4EC42F00EA84BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84830ABA2D4ED6BB00EA84BD /* ContactHeaderModel.swift in Sources */,
+				848448D72D528AC40025BE88 /* ContactHeaderForList.swift in Sources */,
+				84830AB02D4EC7E000EA84BD /* Contact.swift in Sources */,
+				84830A9B2D4EC42F00EA84BD /* ViewController.swift in Sources */,
+				84830A972D4EC42F00EA84BD /* AppDelegate.swift in Sources */,
+				848448D52D527FE10025BE88 /* ContactHeaderForGrid.swift in Sources */,
+				848448DB2D528DA20025BE88 /* ContactCellForList.swift in Sources */,
+				848448D92D528D100025BE88 /* ContactCellForGrid.swift in Sources */,
+				84830AB52D4ECA3600EA84BD /* ContactSection.swift in Sources */,
+				84830A992D4EC42F00EA84BD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84830A9C2D4EC42F00EA84BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84830A9D2D4EC42F00EA84BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84830AA12D4EC43800EA84BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84830AA22D4EC43800EA84BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84830AA52D4EC43800EA84BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84830AA62D4EC43800EA84BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84830AA82D4EC43800EA84BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "zeliz22-ass4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.zeliz22-ass4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84830AA92D4EC43800EA84BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "zeliz22-ass4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.zeliz22-ass4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84830A8E2D4EC42F00EA84BD /* Build configuration list for PBXProject "zeliz22-ass4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84830AA52D4EC43800EA84BD /* Debug */,
+				84830AA62D4EC43800EA84BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84830AA72D4EC43800EA84BD /* Build configuration list for PBXNativeTarget "zeliz22-ass4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84830AA82D4EC43800EA84BD /* Debug */,
+				84830AA92D4EC43800EA84BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84830A8B2D4EC42F00EA84BD /* Project object */;
+}
