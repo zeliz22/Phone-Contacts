@@ -1,7 +1,11 @@
 # Contacts App (iOS)
 
 An iOS app built with Swift and UIKit that displays a list of contacts. Users can view contacts in either a list (UITableView) or grid (UICollectionView) layout, add new contacts, delete existing ones, and dynamically manage grouped sections. Both layouts stay synchronized with all changes.
+
+
 ---
+
+
 
 ## Features
 
